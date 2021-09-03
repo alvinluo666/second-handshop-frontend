@@ -1,0 +1,17 @@
+$max-width : 1200px;
+
+$top-header-background: rgb(31, 31, 31);
+$bottom-header-background: rgb(255, 255, 255);
+$body-background: rgb(238, 238, 238);
+
+$brand-color:#409EFF;
+
+@mixin container {
+    max-width:$max-width;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width:100%;
+    margin:0 auto;
+}
